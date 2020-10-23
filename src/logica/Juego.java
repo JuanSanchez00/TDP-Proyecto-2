@@ -10,7 +10,7 @@ public class Juego {
 	private boolean solucionValida;
 	
 	public Juego() {
-		this.cantCeldasAEliminar = 1;
+		this.cantCeldasAEliminar = 45;
 		this.solucionValida = true;
 		this.cantFilas = 9;
 		this.tablero = new Celda[this.cantFilas][this.cantFilas];
